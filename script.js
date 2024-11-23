@@ -1,4 +1,30 @@
-var productbtn=document.querySelector(".right-nav #product")
+function navanimation() {
+    var body= document.querySelector("body")
+
+body.addEventListener("wheel",function(dets) {
+    // console.log(dets.deltaY);
+    if (dets.deltaY>0) {
+        // console.log("sidha");
+        gsap.to("nav",{
+            transform:`translate(-50%) translateY(-150%) `
+        })
+        
+    }
+    else{
+        // console.log("ullta");
+         gsap.to("nav",{
+            transform:`translate(-50%) translateY(0%) `
+        })
+        
+    }
+    
+})
+}
+navanimation()
+
+
+function navtabanimation() {
+    var productbtn=document.querySelector(".right-nav #product")
 var productpage=document.querySelector(".product-page")
 var usecasesbtn=document.querySelector("#use-cases")
 var usecasespage=document.querySelector(".use-cases-page")
@@ -40,6 +66,9 @@ aboutbtn.addEventListener("click",function () {
     }
         
 })
+    
+}
+navtabanimation()
 
 gsap.from(".nav-bottom h1",{
     x:-200,

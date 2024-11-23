@@ -52,6 +52,8 @@ html,body {
 nav{
     background-color: rgba(255, 255, 255, 0.521);
     backdrop-filter: blur(30px);
+    left: 50%;
+    transform: translateX(-50%);
 }
 .product-page .text h4:hover{
     color:#2F9098;
