@@ -1,0 +1,154 @@
+@font-face {
+    font-family: clear1;
+    src: url(./ClearSansDisplayRegular.woff2);
+}
+@font-face {
+    font-family: clear2;
+    src: url(./ClearSansTextBold.woff2);
+}
+@font-face {
+    font-family: clear3;
+    src: url(./ClearSansTextRegular.woff2);
+}
+@font-face {
+    font-family: clear4;
+    src: url(./pxiEyp8kv8JHgFVrJJfecnFHGPc\ \(1\).woff2);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+html,body {
+    height: 100%;
+    width: 100%;
+    font-family: clear4;
+ }
+
+ .button-nav:hover{
+    background-color: #2F9098;
+    color: white;
+    cursor: pointer;
+    transition: all ease 0.3s;
+
+ }
+.nav .right-nav h2:hover{
+    color:#2F9098;
+    cursor: pointer;
+}
+.product-page .blur-effect{
+    background-color: rgba(255, 255, 255, 0.499);
+    backdrop-filter:blur(40px);   
+}
+.use-cases-page .blur-effect{
+    background-color: rgba(255, 255, 255, 0.499);
+    backdrop-filter:blur(40px);   
+}
+.about-page .blur-effect{
+    background-color: rgba(255, 255, 255, 0.499);
+    backdrop-filter:blur(40px);   
+}
+nav{
+    background-color: rgba(255, 255, 255, 0.521);
+    backdrop-filter: blur(30px);
+}
+.product-page .text h4:hover{
+    color:#2F9098;
+    cursor: pointer;
+}
+.use-cases-page .text h4:hover{
+    color:#2F9098;
+    cursor: pointer;
+}
+.about-page .text h4:hover{
+    color:#2F9098;
+    cursor: pointer;
+}
+.moving-logo{
+    padding-top: 20px;
+    height: 25%;
+    display: flex;
+    flex-wrap: nowrap;
+    
+}
+.logo{
+    display: flex;
+    flex-shrink: 0;
+    padding-left: 60px;
+    gap: 70px;
+}
+.bottom-of-moving-logo{
+    font-size: 30px;
+    font-family: clear1;
+    padding-left: 60px;
+}
+.span-color{
+    color: rgb(152, 152, 152);
+}
+#Accounts:hover{
+    color: black;
+}
+#Clearing:hover{
+    color: black;
+}
+#Embedded-Banking:hover{
+    color: black;
+}
+#silde-video{
+    transition: all ease 2s;
+}
+.button-Explore:hover{
+    background-color: #2F9098;
+    color: white;
+    cursor: pointer;
+    border:1px solid #2F9098;
+    transition: all ease 0.3s;
+ }
+
+.gradient-text{
+    background:linear-gradient(rgb(231, 32, 108), rgb(239, 94, 174));
+    background-clip:text ;
+    color: transparent;
+} 
+.swiper {
+    width: 100%;
+    height: 50%;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+   text-align: start;
+    border: 1px solid rgb(195, 193, 193);
+    margin-left: -20px;
+    border-radius: 30px;
+    
+  }
+  .swiper-slide:hover{
+    background-color: #2F9098;
+    color: #fff;
+    border:1px solid #2F9098;
+  }
+  .swiper-slide button:hover{
+    background-color: white;
+    color:black;
+    border:1px solid white;
+  }
+  .footer-top{
+    background-image: url(https://clear.bank/uploads/images/In-page-images/_1792x557_crop_center-center_none/70523/CTA@2.webp);
+    background-position: center;
+    background-size: cover;
+  }
+
+  .right h3:hover{
+     color: #2F9098;
+  }
+
+  .footer p:hover{
+    color: #2F9098;
+ }
+
+
+
